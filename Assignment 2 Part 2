@@ -1,0 +1,25 @@
+// *******************************************************************************
+// Assignment 2B: Stadium Seating
+// *******************************************************************************
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+int main()
+{
+    double ClassA, ClassB, ClassC, Income;
+    cout << setprecision(5) << showpoint;
+
+    cout << "How many Class A tickets were sold? "; 
+    cin >> ClassA;
+    cout << "How many Class B tickets were sold? ";
+    cin >> ClassB;
+    cout << "How many Class C tickets were sold? ";
+    cin >> ClassC;
+
+    Income = ClassA * 15 + ClassB * 12 + ClassC * 9;
+
+    cout << "Income generated is: " << Income << "\n";
+    
+    return 0;
+}

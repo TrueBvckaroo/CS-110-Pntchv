@@ -10,5 +10,6 @@ int main()
 	new_age = age + 1;
 	cout << "Next year you will be " << new_age << " old.\n";
 		cout << "Thank you for using my program!" << endl;
+		
 	return 0;
 }

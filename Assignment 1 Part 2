@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int number_one;
+	int number_two;
+	int number_three;
+	int number_four;
+	int number_five;
+	double total;
+
+	number_one = 28.0;
+	number_two = 32.0;
+	number_three = 37.0;
+	number_four = 24.0;
+	number_five = 33.0;
+
+	total = number_one + number_two + number_three + number_four + number_five;
+	cout << "Sum = " << total << "\n";
+	cout << "Average = " << total / 5 << "\n";
+  
+	return 0;
+}

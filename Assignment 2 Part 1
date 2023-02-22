@@ -1,0 +1,22 @@
+// *******************************************************************************
+// Assignment 2A: Miles per Gallon
+// *******************************************************************************
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    double TotalGallons;
+    double TotalMiles;
+    double MPG;
+
+    cout << "How many gallons can your car hold? ";
+    cin >> TotalGallons;
+    cout << "How many miles can you drive on a full tank? ";
+    cin >> TotalMiles;
+
+    MPG = TotalMiles / TotalGallons;
+    cout << "Your MPG is: " << MPG << "\n";
+    
+    return 0;
+}
